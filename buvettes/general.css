@@ -1,0 +1,80 @@
+html, body, div, object, h1, h2, h3, h4, h5, h6, p, em, img, strong, ol, ul, li, article, aside, figure, figcaption,
+footer, header, section
+{
+	font-family: Arial, sans-serif;
+	color: black;
+	text-shadow: 3px, 3px, 3px, black;
+}
+
+html
+{
+	background-color: silver;
+}
+
+header
+{
+	background-color: white;
+}
+
+footer
+{
+	background-color: #6495ED;
+}
+
+a
+{
+	color: black;
+	transition-duration: 0.4s;
+}
+
+table#tableau
+{
+    border: 2.5px solid black;
+}
+
+#menu_horizontal 
+{
+	border: none;
+	width: 100%;
+	height: 25px;
+	background-color: #6495ED;
+}
+
+ul#menu_horizontal li
+{ 
+	display : inline;
+	padding : 0 0.5em;
+	color: white;
+		list-style-type : none;
+}
+
+ul#menu_horizontal 
+{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+#menu_horizontal a
+{
+	display: inline-block;
+	margin: 0 30px;
+}
+
+ul#menu_horizontal, a:hover 
+{
+  background-color: ##6495ED;
+  color: white;
+}
+
+.flotte 
+{
+	float:left;
+}
+
+.espace
+{
+	line-height: 175px;
+}
+
+#tableau
